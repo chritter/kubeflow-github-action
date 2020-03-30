@@ -8,6 +8,8 @@ COPY . .
 
 RUN chmod +x /entrypoint.sh
 
-RUN  pip install -r requirements.txt
+RUN pip install -r requirements.txt
+
+RUN pip install -r requirements_databricks.txt
 
 ENTRYPOINT ["/entrypoint.sh"]
