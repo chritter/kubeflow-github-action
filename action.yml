@@ -1,7 +1,7 @@
 name: Compile, Deploy and Run on Kubeflow
 on: [push]
 
-# Set environmental variables
+# Set environmental variables #
 
 jobs:
   build:
